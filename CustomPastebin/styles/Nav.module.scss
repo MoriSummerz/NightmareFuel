@@ -1,0 +1,9 @@
+.navElement {
+    transition: transform 200ms, color 200ms;
+}
+
+.navElement:hover {
+    color: blue;
+    transform: scale(1.2);
+    text-decoration: underline;
+}
